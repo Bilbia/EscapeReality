@@ -6,6 +6,10 @@ TagManager:
   tags:
   - VR_Headset
   - Player_Head
+  - book
+  - projectile
+  - Invisible_Book
+  - Door
   layers:
   - Default
   - TransparentFX
