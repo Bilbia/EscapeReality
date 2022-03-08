@@ -10,6 +10,9 @@ TagManager:
   - projectile
   - Invisible_Book
   - Door
+  - door_Wall
+  - FxTemporaire
+  - candle_light
   layers:
   - Default
   - TransparentFX
