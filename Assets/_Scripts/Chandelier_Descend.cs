@@ -5,13 +5,8 @@ using UnityEngine;
 public class Chandelier_Descend : MonoBehaviour
 {
 
-    private double minHeight = 1.0f;
-    private double mvSpeed = 0.01f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private float minHeight = 1.0f;
+    private float mvSpeed = 0.01f;
 
     // Update is called once per frame
     void Update()
