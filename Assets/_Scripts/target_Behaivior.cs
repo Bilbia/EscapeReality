@@ -5,6 +5,7 @@ using UnityEngine;
 public class target_Behaivior : MonoBehaviour
 {
     public GameObject chandelier;
+    public GameObject vrHeadset;
 
 
     private void OnTriggerEnter(Collider col)
@@ -13,6 +14,7 @@ public class target_Behaivior : MonoBehaviour
         {
             Debug.Log("bulls eye");
             chandelier.GetComponent<chandelier_descendent_vr>().drop = true;
+            vrHeadset.GetComponent<VR_Teleport>().spawn = true;
         }
     }
 }

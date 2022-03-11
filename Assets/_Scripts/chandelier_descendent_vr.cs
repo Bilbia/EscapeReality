@@ -14,9 +14,6 @@ public class chandelier_descendent_vr : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         if(drop){
-            // if(this.transform.position.y >= minHeight){
-            //     this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y - mvSpeed, this.transform.position.z);
-            // }
             rb.isKinematic = false;
         }
     }

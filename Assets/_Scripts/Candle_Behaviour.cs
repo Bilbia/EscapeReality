@@ -5,11 +5,11 @@ using UnityEngine;
 public class Candle_Behaviour : MonoBehaviour
 {
 
-    public GameObject light;
+    public GameObject candleLight;
 
     private void OnTriggerEnter(Collider col)
     {
-        Destroy(light);
+        Destroy(candleLight);
         Destroy(gameObject);
     }
 }
