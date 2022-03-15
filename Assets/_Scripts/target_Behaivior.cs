@@ -14,7 +14,7 @@ public class target_Behaivior : MonoBehaviour
         {
             Debug.Log("bulls eye");
             chandelier.GetComponent<chandelier_descendent_vr>().drop = true;
-            vrHeadset.GetComponent<VR_Teleport>().spawn = true;
+            vrHeadset.SetActive(true);
         }
     }
 }
